@@ -87,58 +87,58 @@ public class EmisionPasaportePersonal extends javax.swing.JPanel {
         cargarImagenButton = new javax.swing.JButton();
         guardarInfo = new javax.swing.JButton();
 
-        jLabel18.setFont(new java.awt.Font("Roboto Black", 0, 24)); // NOI18N
+        jLabel18.setFont(new Font("Roboto Black", 0, 24)); // NOI18N
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/file .png"))); // NOI18N
         jLabel18.setText("Emisión de Pasaporte");
 
-        jLabel2.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel2.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel2.setText("Tipo de pasaporte:");
 
         tipoPasaporteComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ORDINARIO", "DIPLOMATICO", "OFICIAL", "ESPECIAL" }));
 
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(680, 680));
+        jScrollPane1.setPreferredSize(new Dimension(680, 680));
 
-        jPanel1.setPreferredSize(new java.awt.Dimension(680, 680));
+        jPanel1.setPreferredSize(new Dimension(680, 680));
 
-        jLabel3.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel3.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel3.setText("Tipo de pasaporte:");
 
-        jLabel4.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
+        jLabel4.setFont(new Font("Roboto Light", 0, 14)); // NOI18N
         jLabel4.setText("tipo de pasaporte");
 
-        jLabel22.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel22.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel22.setText("Nombres ciudadano:");
 
-        jLabel21.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel21.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel21.setText("Apellidos ciudadano:");
 
-        jLabel32.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel32.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel32.setText("N.U.I.:");
 
-        jLabel11.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel11.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel11.setText("Lugar de nacimiento:");
 
         provinciaNacimiento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos", "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona Santiago", "Napo", "Orellana", "Pastaza", "Pichincha", "Santa Elena", "Santo Domingo de los Tsáchilas", "Sucumbíos", "Tungurahua", "Zamora Chinchipe" }));
 
-        jLabel12.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel12.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel12.setText("Nacionalidad:");
 
         nacionalidad.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ECUATORIANO", "ECUATORIANA" }));
 
-        jLabel13.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel13.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel13.setText("Estado Civil:");
 
         estadoCivil.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Soltero", "Casado", "Viudo", "Divorciado" }));
 
-        jLabel14.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel14.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel14.setText("Genero:");
 
         genero.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "MASCULINO", "FEMENINO" }));
 
-        jLabel15.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel15.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel15.setText("INFORMACION DE CONTACTO");
 
-        jLabel16.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel16.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel16.setText("Dirección de residencia:");
 
         direccionResidencia.addActionListener(new java.awt.event.ActionListener() {
@@ -147,10 +147,10 @@ public class EmisionPasaportePersonal extends javax.swing.JPanel {
             }
         });
 
-        jLabel17.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel17.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel17.setText("Teléfono de contacto:");
 
-        jLabel19.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel19.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel19.setText("Correo electrónico:");
 
         correoElectronico.addActionListener(new java.awt.event.ActionListener() {
@@ -159,10 +159,10 @@ public class EmisionPasaportePersonal extends javax.swing.JPanel {
             }
         });
 
-        jLabel23.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel23.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel23.setText("DIPLOMATICO");
 
-        jLabel24.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel24.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel24.setText("Cargo o función diplomática:");
 
         cargoDiplomatico.addActionListener(new java.awt.event.ActionListener() {
@@ -171,33 +171,33 @@ public class EmisionPasaportePersonal extends javax.swing.JPanel {
             }
         });
 
-        jLabel25.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel25.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel25.setText("Organización o institución a la que representa:");
 
-        jLabel26.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel26.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel26.setText("Oficial");
 
-        jLabel27.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel27.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel27.setText("Cargo gubernamental o militar:");
 
-        jLabel28.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel28.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel28.setText("Ministerio o entidad estatal a la que pertenece:");
 
-        jLabel29.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel29.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel29.setText("ESPECIAL");
 
-        jLabel30.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel30.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel30.setText("Razón específica para el pasaporte especial:");
 
-        jLabel31.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel31.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel31.setText("Documento de respaldo emitido por una institución autorizada:");
 
-        jLabel9.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel9.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel9.setText("Fecha de vencimiento del pasaporte:");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AGENCIA EL BATAN", "AGENCIA BELLAVISTA", "AGENCIA SAN BLAS" }));
 
-        jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 14)); // NOI18N
+        jLabel10.setFont(new Font("Roboto Medium", 0, 14)); // NOI18N
         jLabel10.setText("Lugar Emision:");
 
         vencimientoPasaporte.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +213,7 @@ public class EmisionPasaportePersonal extends javax.swing.JPanel {
             }
         });
 
-        fotoPanel.setBackground(new java.awt.Color(255, 255, 255));
+        fotoPanel.setBackground(new Color(255, 255, 255));
         fotoPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
         javax.swing.GroupLayout fotoPanelLayout = new javax.swing.GroupLayout(fotoPanel);

@@ -5,7 +5,7 @@ import org.ucuenca.Modelo.Usuarios.Ciudadano;
 
 /**
  * Excepción a lanzar si es que en algún proceso de
- * {@link org.ucuenca.Modelo.Documentos.Plantillas.DocumentoLegal} o {@link org.ucuenca.Modelo.Citas.Plantillas.Cita}
+ * {@link DocumentoLegal} o {@link org.ucuenca.Modelo.Citas.Plantillas.Cita}
  * No se cumple con un requerimiento establecido. Ej: <b>No estar vivo</b>
  *
  * <p>
@@ -14,7 +14,7 @@ import org.ucuenca.Modelo.Usuarios.Ciudadano;
  * </pre>
  * </p>
  * <p>
- * Puede usarse en conjunto con {@link org.ucuenca.Modelo.Citas.Plantillas.Requisito} para obtener su mensaje
+ * Puede usarse en conjunto con {@link Requisito} para obtener su mensaje
  * de incumplimiento correspondiente
  *
  * <p>

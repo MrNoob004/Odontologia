@@ -33,7 +33,7 @@ import java.awt.event.ActionListener;
 /**
  * @author chant
  */
-public class PaginaPrincipal extends javax.swing.JFrame {
+public class PaginaPrincipal extends JFrame {
 
     /**
      * Creates new form Pruebas
@@ -66,33 +66,33 @@ public class PaginaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        bgMenuPrincipal = new javax.swing.JPanel();
-        servicios = new javax.swing.JPanel();
-        barraLateral = new javax.swing.JPanel();
+        bgMenuPrincipal = new JPanel();
+        servicios = new JPanel();
+        barraLateral = new JPanel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         bgMenuPrincipal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         servicios.setBackground(new java.awt.Color(255, 255, 255));
-        servicios.setLayout(new java.awt.CardLayout());
+        servicios.setLayout(new CardLayout());
         bgMenuPrincipal.add(servicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 700, 700));
 
         barraLateral.setBackground(new java.awt.Color(0, 0, 0));
-        barraLateral.setLayout(new java.awt.CardLayout());
+        barraLateral.setLayout(new CardLayout());
         bgMenuPrincipal.add(barraLateral, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 700));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        GroupLayout layout = new GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                layout.createParallelGroup(GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
-                                .addComponent(bgMenuPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 1000, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(bgMenuPrincipal, GroupLayout.PREFERRED_SIZE, 1000, GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(bgMenuPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                        .addComponent(bgMenuPrincipal, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -338,9 +338,9 @@ public class PaginaPrincipal extends javax.swing.JFrame {
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
             }
@@ -350,7 +350,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(PaginaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(PaginaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(PaginaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
@@ -367,8 +367,8 @@ public class PaginaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel bgMenuPrincipal;
-    private javax.swing.JPanel servicios;
-    public javax.swing.JPanel barraLateral;
+    private JPanel bgMenuPrincipal;
+    private JPanel servicios;
+    public JPanel barraLateral;
     // End of variables declaration//GEN-END:variables
 }

@@ -23,7 +23,7 @@ public abstract class Acta extends DocumentoLegal implements Comparable<Acta>, C
     protected LocalDate fechaEvento;
 
     /**
-     * {@link org.ucuenca.Modelo.Usuarios.Provincia} donde se desarrolló el evento
+     * {@link Provincia} donde se desarrolló el evento
      */
     protected Provincia lugarEvento;
 

@@ -64,7 +64,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnActMatrimonio.setToolTipText("");
         btnActMatrimonio.setBorder(null);
         btnActMatrimonio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnActMatrimonioActionPerformed(evt);
             }
         });
@@ -93,7 +93,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnActDivorcio.setToolTipText("");
         btnActDivorcio.setBorder(null);
         btnActDivorcio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnActDivorcioActionPerformed(evt);
             }
         });
@@ -115,7 +115,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnActNacimiento.setToolTipText("");
         btnActNacimiento.setBorder(null);
         btnActNacimiento.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnActNacimientoActionPerformed(evt);
             }
         });
@@ -135,7 +135,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnAgenDivorcio.setToolTipText("");
         btnAgenDivorcio.setBorder(null);
         btnAgenDivorcio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnAgenDivorcioActionPerformed(evt);
             }
         });
@@ -148,7 +148,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnActaDefuncion.setToolTipText("");
         btnActaDefuncion.setBorder(null);
         btnActaDefuncion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnActaDefuncionActionPerformed(evt);
             }
         });
@@ -161,7 +161,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnAgenCedula.setToolTipText("");
         btnAgenCedula.setBorder(null);
         btnAgenCedula.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnAgenCedulaActionPerformed(evt);
             }
         });
@@ -174,7 +174,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnAgenPasaporte.setToolTipText("");
         btnAgenPasaporte.setBorder(null);
         btnAgenPasaporte.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnAgenPasaporteActionPerformed(evt);
             }
         });
@@ -187,7 +187,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnAgenNacimiento.setToolTipText("");
         btnAgenNacimiento.setBorder(null);
         btnAgenNacimiento.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnAgenNacimientoActionPerformed(evt);
             }
         });
@@ -200,7 +200,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnAgenMatrimonio.setToolTipText("");
         btnAgenMatrimonio.setBorder(null);
         btnAgenMatrimonio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnAgenMatrimonioActionPerformed(evt);
             }
         });
@@ -214,7 +214,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnUsuario.setToolTipText("");
         btnUsuario.setBorder(null);
         btnUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnUsuarioActionPerformed(evt);
             }
         });
@@ -228,7 +228,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnCerrarSesion.setToolTipText("");
         btnCerrarSesion.setBorder(null);
         btnCerrarSesion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnCerrarSesionActionPerformed(evt);
             }
         });
@@ -240,7 +240,7 @@ public class PpPersonal extends javax.swing.JPanel {
         volverUsuarioNormal.setText("Volver a usuario normal");
         volverUsuarioNormal.setBorder(null);
         volverUsuarioNormal.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 volverUsuarioNormalActionPerformed(evt);
             }
         });
@@ -253,7 +253,7 @@ public class PpPersonal extends javax.swing.JPanel {
         btnRegistroDefuncion.setToolTipText("");
         btnRegistroDefuncion.setBorder(null);
         btnRegistroDefuncion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 btnRegistroDefuncionActionPerformed(evt);
             }
         });
@@ -289,51 +289,51 @@ public class PpPersonal extends javax.swing.JPanel {
         ControladorLogin login = new ControladorLogin();
     }
 
-    private void btnActMatrimonioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActMatrimonioActionPerformed
+    private void btnActMatrimonioActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnActMatrimonioActionPerformed
        parent.actaMatrimonio("CerMatri");
     }//GEN-LAST:event_btnActMatrimonioActionPerformed
 
-    private void btnActDivorcioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActDivorcioActionPerformed
+    private void btnActDivorcioActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnActDivorcioActionPerformed
         parent.actaDivorcio("CerDiv");
     }//GEN-LAST:event_btnActDivorcioActionPerformed
 
-    private void btnActNacimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActNacimientoActionPerformed
+    private void btnActNacimientoActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnActNacimientoActionPerformed
        parent.actaNacimiento("CerNacimiento"); 
     }//GEN-LAST:event_btnActNacimientoActionPerformed
 
-    private void btnActaDefuncionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActaDefuncionActionPerformed
+    private void btnActaDefuncionActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnActaDefuncionActionPerformed
        parent.actaDefuncion("CerDef");
     }//GEN-LAST:event_btnActaDefuncionActionPerformed
 
-    private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+    private void btnUsuarioActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
         
     }//GEN-LAST:event_btnUsuarioActionPerformed
 
-    private void volverUsuarioNormalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_volverUsuarioNormalActionPerformed
+    private void volverUsuarioNormalActionPerformed(ActionEvent evt) {//GEN-FIRST:event_volverUsuarioNormalActionPerformed
         parent.paginaInicial("PnlUsu");
     }//GEN-LAST:event_volverUsuarioNormalActionPerformed
 
-    private void btnAgenCedulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgenCedulaActionPerformed
+    private void btnAgenCedulaActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnAgenCedulaActionPerformed
         parent.emisionCedula("EmiCed");
     }//GEN-LAST:event_btnAgenCedulaActionPerformed
 
-    private void btnAgenPasaporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgenPasaporteActionPerformed
+    private void btnAgenPasaporteActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnAgenPasaporteActionPerformed
         parent.emisionPasaporte("EmiPas");
     }//GEN-LAST:event_btnAgenPasaporteActionPerformed
 
-    private void btnAgenDivorcioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgenDivorcioActionPerformed
+    private void btnAgenDivorcioActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnAgenDivorcioActionPerformed
         parent.registroDivorcio("RegisDiv");
     }//GEN-LAST:event_btnAgenDivorcioActionPerformed
 
-    private void btnRegistroDefuncionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroDefuncionActionPerformed
+    private void btnRegistroDefuncionActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnRegistroDefuncionActionPerformed
         parent.registroDefuncion("RegisDef");
     }//GEN-LAST:event_btnRegistroDefuncionActionPerformed
 
-    private void btnAgenMatrimonioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgenMatrimonioActionPerformed
+    private void btnAgenMatrimonioActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnAgenMatrimonioActionPerformed
         parent.registroMatrimonio("RegisMatri");
     }//GEN-LAST:event_btnAgenMatrimonioActionPerformed
 
-    private void btnAgenNacimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgenNacimientoActionPerformed
+    private void btnAgenNacimientoActionPerformed(ActionEvent evt) {//GEN-FIRST:event_btnAgenNacimientoActionPerformed
         parent.registroPersona("RegisPer");
     }//GEN-LAST:event_btnAgenNacimientoActionPerformed
 

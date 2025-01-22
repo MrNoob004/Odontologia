@@ -12,7 +12,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Documento de identificación asociado a {@link org.ucuenca.Modelo.Usuarios.Ciudadano}
+ * Documento de identificación asociado a {@link Ciudadano}
  * <p>
  * Su id NUI es {@link #idUnico}
  */

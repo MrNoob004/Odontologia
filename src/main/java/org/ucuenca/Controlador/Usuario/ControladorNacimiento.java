@@ -109,7 +109,7 @@ public class ControladorNacimiento implements ActionListener,CitaNotificableCorr
 
     private void mostrarSeleccionFecha() {
         // Crear un JDialog para mostrar el panel EleccionFecha
-        JDialog dialog = new JDialog((javax.swing.JFrame) null, "Seleccionar Fecha", true);
+        JDialog dialog = new JDialog((JFrame) null, "Seleccionar Fecha", true);
 
         // Instanciar el panel EleccionFecha
         selectorFecha = new EleccionFecha();
